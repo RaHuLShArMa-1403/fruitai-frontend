@@ -2,16 +2,6 @@
 
 This is the frontend of the Fruit.Ai project, a health manager app that provides information about various fruits, FAQs, a chatbot, a translator, and more.
 
-## Table of Contents
-
-- [Setup](#setup)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Project Structure](#project-structure)
-- [Running the Project](#running-the-project)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
-
 ## Setup
 
 1. Clone the repository:
@@ -36,7 +26,9 @@ REACT_APP_Base_URL=<api-base-url>
 REACT_APP_RapidAPI_Key=<rapidapi-key-for-translation>
 
 
-
+### DEPLOYEMENT
+Delpoyment=<vercel>
+TOREMEBER=<check-all-the-requirements-and-commands>
 
 
 
