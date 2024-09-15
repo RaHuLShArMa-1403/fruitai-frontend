@@ -1,0 +1,57 @@
+/* src/components/FAQ/FAQ.css */
+.faq-form-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.delete-confirmation-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.delete-button,
+.cancel-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #d9534f;
+}
+
+.cancel-button {
+  background-color: #5bc0de;
+}

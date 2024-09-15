@@ -1,0 +1,67 @@
+/* Translator.css */
+.translator-container {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  min-height: 100vh;
+  max-width: 600px;
+  margin: auto;
+}
+
+.translator-container h2 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.translation-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.translation-controls label {
+  display: flex;
+  flex-direction: column;
+}
+
+.translation-controls select {
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
