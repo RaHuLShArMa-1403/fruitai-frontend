@@ -1,6 +1,6 @@
 /* BackButton.css */
 .back-button {
-  background-color: #4caf50; /* Green */
+  background-color: #050605; /* Green */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -14,5 +14,5 @@
 }
 
 .back-button:hover {
-  background-color: #45a049;
+  background-color: #0b0e0b;
 }

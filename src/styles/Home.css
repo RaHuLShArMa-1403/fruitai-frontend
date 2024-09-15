@@ -1,102 +1,74 @@
-/* Home.css */
-.home-container {
+body {
+  margin: 0;
   font-family: "Arial", sans-serif;
-  text-align: center;
-  padding: 20px;
-  background: linear-gradient(
-    135deg,
-    #f5f7fa,
-    #c3cfe2
-  ); /* Gradient background */
-  min-height: 100vh;
+  background: linear-gradient(to bottom right, #a0e1f9, #f9a0e1);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home {
+  display: flex;
+  flex-direction: column; /* Or row if needed */
+  align-items: center; /* Centers items horizontally */
 }
 
-.home-header {
-  margin-bottom: 30px;
+.home-container {
+  text-align: center;
 }
 
-.home-header h1 {
-  font-size: 3em;
-  color: #4caf50;
-  margin: 0;
+h1 {
+  font-size: 3rem;
+  color: #4a4a4a;
 }
 
-.home-header h2 {
-  font-size: 1.5em;
-  color: #333;
-  margin: 0;
+h2 {
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  margin-bottom: 2rem;
 }
 
 .button-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
   justify-content: center;
+  gap: 1rem;
 }
 
 .home-button {
-  background-color: #4caf50;
-  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
   border: none;
-  padding: 15px 30px;
-  font-size: 1.1em;
+  border-radius: 15px;
   cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.chat {
+  background-color: #ffeb3b; /* Yellow */
+  color: #3f51b5; /* Dark Blue */
+}
+
+.faqs {
+  background-color: #e1bee7; /* Light Purple */
+  color: #3f51b5; /* Dark Blue */
+}
+
+.about {
+  background-color: #b2ebf2; /* Light Blue */
+  color: #3f51b5; /* Dark Blue */
+}
+
+.translator {
+  background-color: #51c555; /* Light Green */
+  color: #3f51b5; /* Dark Blue */
+}
+
+.logout {
+  background-color: #ffccbc; /* Light Orange */
+  color: #3f51b5; /* Dark Blue */
 }
 
 .home-button:hover {
-  background-color: #45a049;
   transform: scale(1.05);
-}
-
-.home-button:focus {
-  outline: none;
-}
-
-.user-info {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.user-name {
-  font-size: 1.2em;
-  color: #333;
-}
-
-.user-icon {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
-
-@media (max-width: 600px) {
-  .home-header h1 {
-    font-size: 2.5em;
-  }
-
-  .home-header h2 {
-    font-size: 1.2em;
-  }
-
-  .home-button {
-    padding: 10px 20px;
-    font-size: 1em;
-  }
-
-  .user-name {
-    font-size: 1em;
-  }
-
-  .user-icon {
-    width: 40px;
-    height: 40px;
-  }
 }

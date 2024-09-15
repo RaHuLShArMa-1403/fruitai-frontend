@@ -1,12 +1,17 @@
 /* Login.css */
 .login-container {
-  max-width: 400px;
-  margin: auto;
+  width: 400px;
+  margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom right, #a0e1f9, #f9a0e1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
   text-align: center;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .input-group {
@@ -16,19 +21,26 @@
 .input-group label {
   display: block;
   margin-bottom: 5px;
+  color: #555;
 }
 
 .input-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-.remember-me {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .login-button {
@@ -37,19 +49,64 @@
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .login-button:hover {
   background-color: #0056b3;
+  transform: scale(1.05);
 }
 
 .social-login {
-  margin: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 .social-icons span {
-  margin: 0 5px;
-  font-size: 20px; /* Adjust size as needed */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.social-icons span:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+}
+
+button:hover {
+  text-decoration: underline;
 }

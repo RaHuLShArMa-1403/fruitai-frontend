@@ -1,16 +1,16 @@
 /* Translator.css */
+
 .translator-container {
   font-family: "Arial", sans-serif;
   padding: 20px;
   background: #f9f9f9;
-  min-height: 100vh;
   max-width: 600px;
   margin: auto;
 }
 
 .translator-container h2 {
   text-align: center;
-  color: #4caf50;
+  color: #c9913c;
   margin-bottom: 20px;
 }
 
@@ -36,23 +36,19 @@ input[type="text"] {
   padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #5e1313;
   border-radius: 4px;
 }
 
-button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
+.btn-btn-primary-btn-translate {
+  color: rgb(87, 91, 155);
   padding: 10px;
+  border: none;
   cursor: pointer;
   border-radius: 4px;
-  width: 100%;
+  width: 50%;
   font-size: 16px;
-}
-
-button:hover {
-  background-color: #45a049;
+  background-color: lavender;
 }
 
 h3 {
@@ -63,5 +59,24 @@ p {
   background: #fff;
   padding: 10px;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(250, 246, 246, 0.1);
+}
+.text-box-main {
+  height: 30vh;
+  width: 60vh;
+  background-color: transparent;
+}
+.translator-class {
+  background-color: transparent;
+}
+.back-button-home {
+  background: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-row {
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
 }

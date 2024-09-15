@@ -15,9 +15,8 @@ const About = () => {
           recommendations tailored to your health needs, making it easier for
           you to integrate the best fruits into your daily routine.
         </p>
-        <button className="about-button">ABOUT</button>
+        <BackButton className="about-button">ABOUT</BackButton>
       </div>
-      <BackButton />
     </div>
   );
 };

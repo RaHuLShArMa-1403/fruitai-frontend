@@ -1,9 +1,17 @@
-/* About.css */
 .about-container {
-  position: relative;
-  text-align: center;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border-radius: 60px;
+  background: linear-gradient(
+    135deg,
+    #a1c4fd,
+    #c2e9fb
+  ); /* Gradient background */
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .background-gradient {
@@ -12,36 +20,48 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
-  z-index: -1;
+  background: linear-gradient(
+    135deg,
+    rgba(161, 196, 253, 0.5),
+    rgba(194, 233, 251, 0.5)
+  );
+  z-index: 0;
 }
 
 .content {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
+  position: relative;
+  z-index: 1; /* Ensure content is above the background */
+  text-align: center;
+  color: #000; /* Text color */
+  max-width: 600px; /* Limit width for better readability */
   padding: 20px;
-  max-width: 600px;
-  margin: auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 h1 {
-  margin-bottom: 15px;
+  font-size: 2.5rem; /* Adjust font size */
+  margin-bottom: 20px; /* Space below the title */
 }
 
 p {
-  margin-bottom: 20px;
+  font-size: 1.2rem; /* Adjust font size */
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 30px; /* Space below the paragraph */
 }
 
 .about-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  padding: 10px 20px; /* Button padding */
+  font-size: 1rem; /* Button font size */
+  color: #fff; /* Button text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* Remove border */
+  border-radius: 25px; /* Rounded button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
 }
 
 .about-button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Darker shade on hover */
 }

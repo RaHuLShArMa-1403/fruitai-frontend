@@ -50,12 +50,12 @@ const Translator = () => {
   };
 
   return (
-    <section className="translator">
+    <section className="translator-class">
       <div className="row-wrapper">
         <div className="translator-container input-lang">
           <div className="top-row">
             <button
-              className="btn btn-primary btn-translate"
+              className="btn-btn-primary-btn-translate"
               onClick={translate}
             >
               Translate
@@ -63,7 +63,7 @@ const Translator = () => {
           </div>
           <form className="input-form">
             <textarea
-              className="text-box"
+              className="text-box-main"
               placeholder="Enter text (any language)"
               onChange={(e) => setInputText(e.target.value)}
               value={inputText}
@@ -77,7 +77,7 @@ const Translator = () => {
           </form>
         </div>
         <div className="translator-container output-lang">
-          <div className="top-row">
+          <div className="top-row-2">
             <select
               name="languages"
               id="languages"
@@ -103,7 +103,9 @@ const Translator = () => {
             )}
           </p>
         </div>
-        <BackButton />
+        <div className="back-button-home">
+          <BackButton />
+        </div>
       </div>
     </section>
   );
