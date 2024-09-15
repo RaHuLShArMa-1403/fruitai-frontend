@@ -1,4 +1,3 @@
-// Chat.js
 import React, { useState } from "react";
 import "../styles/Chat.css";
 import BackButton from "./BackButton";

@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  background: #183c82; /* Light background for contrast */
+  background: #183c82;
 }
 
 .chat-container {
   max-width: 600px;
-  margin: 2rem auto; /* Center the chat container */
+  margin: 2rem auto;
   padding: 2rem;
   background: rgb(218, 238, 239);
   border-radius: 10px;
@@ -15,7 +15,7 @@ body {
 
 h2 {
   text-align: center;
-  color: #3f51b5; /* Dark Blue */
+  color: #3f51b5;
   margin-bottom: 1.5rem;
 }
 
@@ -28,20 +28,20 @@ h2 {
 .fruit-card {
   padding: 1.5rem;
   border-radius: 10px;
-  background-color: #e1f5fe; /* Light Blue */
-  border: 1px solid #b3e5fc; /* Subtle border */
+  background-color: #e1f5fe;
+  border: 1px solid #b3e5fc;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.2s;
 }
 
 .fruit-card:hover {
-  background-color: #b3e5fc; /* Slightly darker blue on hover */
-  transform: translateY(-2px); /* Lift effect */
+  background-color: #b3e5fc;
+  transform: translateY(-2px);
 }
 
 .fruit-detail-card {
   padding: 1.5rem;
-  background-color: #ffeb3b; /* Yellow background for selected fruit */
+  background-color: #ffeb3b;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5rem;
@@ -50,7 +50,7 @@ h2 {
 .back-button {
   background: transparent;
   border: none;
-  color: #3f51b5; /* Match the overall theme */
+  color: #3f51b5;
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 1rem;
@@ -58,15 +58,15 @@ h2 {
 }
 
 .back-button:hover {
-  color: #1e88e5; /* Darker blue on hover */
+  color: #1e88e5;
 }
 
 h3 {
-  color: #3f51b5; /* Dark Blue */
-  margin: 0.5rem 0; /* Adjust margins for spacing */
+  color: #3f51b5;
+  margin: 0.5rem 0;
 }
 
 p {
   margin: 0.5rem 0;
-  color: #555; /* Dark Grey for text */
+  color: #555;
 }

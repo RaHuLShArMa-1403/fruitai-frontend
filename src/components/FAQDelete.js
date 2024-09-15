@@ -1,7 +1,6 @@
-// src/components/FAQ/FAQDelete.js
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import "../components/CRUD/FAQ.css"; // Import the CSS file for styling
+import "../components/CRUD/FAQ.css";
 
 const FAQDelete = () => {
   const { id } = useParams();

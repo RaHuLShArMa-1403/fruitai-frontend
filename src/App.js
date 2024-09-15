@@ -1,12 +1,11 @@
-// src/App.js
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import About from "./components/About";
 import Chat from "./components/Chat";
-import FAQCreate from "./components/CRUD/FAQCreate"; // Import FAQCreate
+import FAQCreate from "./components/CRUD/FAQCreate";
 import FAQDelete from "./components/CRUD/FAQDelete";
-import FAQEdit from "./components/CRUD/FAQEdit"; // Import FAQEdit
-import FAQList from "./components/CRUD/FAQList"; // Import FAQList
+import FAQEdit from "./components/CRUD/FAQEdit";
+import FAQList from "./components/CRUD/FAQList";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Translator from "./components/Translator";
@@ -21,9 +20,7 @@ const App = () => {
         <Route path="/translator" element={<Translator />} />
         <Route path="/faqs" element={<FAQList />} />
         <Route path="/faqs/create" element={<FAQCreate />} />{" "}
-        {/* Add route for FAQCreate */}
         <Route path="/faqs/edit/:id" element={<FAQEdit />} />{" "}
-        {/* Add route for FAQEdit */}
         <Route path="/faqs/delete/:id" element={<FAQDelete />} />
         <Route path="/about" element={<About />} />
       </Routes>

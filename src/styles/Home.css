@@ -9,8 +9,8 @@ body {
 }
 .home {
   display: flex;
-  flex-direction: column; /* Or row if needed */
-  align-items: center; /* Centers items horizontally */
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-container {
@@ -45,28 +45,28 @@ h2 {
 }
 
 .chat {
-  background-color: #ffeb3b; /* Yellow */
-  color: #3f51b5; /* Dark Blue */
+  background-color: #ffeb3b;
+  color: #3f51b5;
 }
 
 .faqs {
-  background-color: #e1bee7; /* Light Purple */
-  color: #3f51b5; /* Dark Blue */
+  background-color: #e1bee7;
+  color: #3f51b5;
 }
 
 .about {
-  background-color: #b2ebf2; /* Light Blue */
-  color: #3f51b5; /* Dark Blue */
+  background-color: #b2ebf2;
+  color: #3f51b5;
 }
 
 .translator {
-  background-color: #51c555; /* Light Green */
-  color: #3f51b5; /* Dark Blue */
+  background-color: #51c555;
+  color: #3f51b5;
 }
 
 .logout {
-  background-color: #ffccbc; /* Light Orange */
-  color: #3f51b5; /* Dark Blue */
+  background-color: #ffccbc;
+  color: #3f51b5;
 }
 
 .home-button:hover {

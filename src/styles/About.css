@@ -32,36 +32,36 @@
   position: relative;
   z-index: 1; /* Ensure content is above the background */
   text-align: center;
-  color: #000; /* Text color */
-  max-width: 600px; /* Limit width for better readability */
+  color: #000;
+  max-width: 600px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.8); /* White background with transparency */
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-size: 2.5rem; /* Adjust font size */
-  margin-bottom: 20px; /* Space below the title */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 1.2rem; /* Adjust font size */
-  line-height: 1.5; /* Line height for readability */
-  margin-bottom: 30px; /* Space below the paragraph */
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 .about-button {
-  padding: 10px 20px; /* Button padding */
-  font-size: 1rem; /* Button font size */
-  color: #fff; /* Button text color */
-  background-color: #007bff; /* Button background color */
-  border: none; /* Remove border */
-  border-radius: 25px; /* Rounded button */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth transition */
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .about-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3;
 }

@@ -1,8 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import "./FAQ.css"; // Add your CSS file for styling
-
+import "./FAQ.css";
 const FAQEdit = () => {
   const { id } = useParams(); // Get the FAQ ID from the URL
   const navigate = useNavigate();

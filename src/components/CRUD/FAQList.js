@@ -1,8 +1,7 @@
-// src/components/FAQ/FAQList.js
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import BackButton from "../BackButton";
-import "./FAQ.css"; // Import the CSS file for styling
+import "./FAQ.css";
 const FAQList = () => {
   const [faqs, setFaqs] = useState([]);
 

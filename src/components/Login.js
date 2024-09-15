@@ -1,6 +1,5 @@
-// Login.js
 import React, { useState } from "react";
-import "../styles/Login.css"; // Import the CSS file for styling
+import "../styles/Login.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -72,7 +71,7 @@ const Login = () => {
       <div className="social-login">
         <p>or connect with</p>
         <div className="social-icons">
-          <span>🔵</span> {/* Replace with actual icons */}
+          <span>🔵</span>
           <span>📷</span>
           <span>📌</span>
           <span>🔗</span>

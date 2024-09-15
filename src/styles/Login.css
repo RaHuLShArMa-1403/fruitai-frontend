@@ -1,4 +1,3 @@
-/* Login.css */
 .login-container {
   width: 400px;
   margin: 0 auto;
@@ -27,11 +26,11 @@
 .input-group input {
   width: 100%;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.5); /* Transparent white */
-  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   box-sizing: border-box;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Border shadow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .input-group input:focus {
@@ -92,15 +91,14 @@ p {
   color: #555;
 }
 
-/* Make "or connect", "By signing in", "Terms and Conditions", and "Register" transparent */
 p a,
 p button,
 .social-login p {
   color: #007bff;
-  background: transparent; /* Make the background transparent */
-  border: none; /* Remove border */
-  box-shadow: none; /* Remove shadow */
-  padding: 0; /* Remove padding */
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
   text-decoration: none;
   cursor: pointer;
 }

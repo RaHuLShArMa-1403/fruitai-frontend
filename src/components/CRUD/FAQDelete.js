@@ -1,7 +1,7 @@
 import axios from "axios";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./FAQ.css"; // Add your CSS file for styling
+import "./FAQ.css";
 
 const FAQDelete = ({ id, onClose }) => {
   const navigate = useNavigate();
