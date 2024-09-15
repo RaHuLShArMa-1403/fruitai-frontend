@@ -5,7 +5,6 @@ import "../styles/Login.css"; // Import the CSS file for styling
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [rememberMe, setRememberMe] = useState(false);
   const [error, setError] = useState("");
 
   const handleSubmit = async (e) => {
@@ -64,17 +63,7 @@ const Login = () => {
             required
           />
         </div>
-        <div className="remember-me">
-          <input
-            type="checkbox"
-            checked={rememberMe}
-            onChange={() => setRememberMe(!rememberMe)}
-          />
-          <label>Remember password</label>
-          <a href="#" className="forgot-password">
-            Forget password?
-          </a>
-        </div>
+
         {error && <p className="error">{error}</p>}
         <button type="submit" className="login-button">
           Login
@@ -91,10 +80,10 @@ const Login = () => {
       </div>
       <p>
         By signing in you are agreeing to our{" "}
-        <a href="#">Terms and privacy policy</a>
+        <button>Terms and privacy policy</button>
       </p>
       <p>
-        <a href="#">Register</a>
+        <a href="/">Register</a>
       </p>
     </div>
   );
