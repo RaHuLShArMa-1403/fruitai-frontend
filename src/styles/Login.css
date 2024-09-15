@@ -27,9 +27,11 @@
 .input-group input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.5); /* Transparent white */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
   border-radius: 5px;
   box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Border shadow */
 }
 
 .input-group input:focus {
@@ -90,23 +92,29 @@ p {
   color: #555;
 }
 
-p a {
+/* Make "or connect", "By signing in", "Terms and Conditions", and "Register" transparent */
+p a,
+p button,
+.social-login p {
   color: #007bff;
+  background: transparent; /* Make the background transparent */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove shadow */
+  padding: 0; /* Remove padding */
   text-decoration: none;
+  cursor: pointer;
 }
 
-p a:hover {
+p a:hover,
+p button:hover {
   text-decoration: underline;
 }
 
 button {
   background: none;
   border: none;
-  color: #007bff;
   cursor: pointer;
-  padding: 0;
 }
-
-button:hover {
-  text-decoration: underline;
+#signin {
+  background: transparent;
 }

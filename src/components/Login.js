@@ -78,8 +78,8 @@ const Login = () => {
           <span>🔗</span>
         </div>
       </div>
-      <p>
-        By signing in you are agreeing to our{" "}
+      <p id="signin">
+        By signing in you are agreeing to our
         <button>Terms and privacy policy</button>
       </p>
       <p>
