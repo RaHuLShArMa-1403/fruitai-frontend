@@ -13,7 +13,7 @@ This is the frontend of the Fruit.Ai project, a health manager app that provides
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/RaHuLShArMa-1403/fruitai-frontend>
    cd fruitai-frontend
    ```
 2. Install the dependencies:
