@@ -2,6 +2,11 @@
 
 This is the frontend of the Fruit.Ai project, a health manager app that provides information about various fruits, FAQs, a chatbot, a translator, and more.
 
+###### Important
+Login Page :
+Demo Email : test@example.com
+Demo Password : passwod123
+
 ## Setup
 
 1. Clone the repository:
