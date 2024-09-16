@@ -1,10 +1,11 @@
 # Fruit.Ai Frontend
-
+ Deployed Link : https://fruitai-frontend-pearl.vercel.app/
+ 
 This is the frontend of the Fruit.Ai project, a health manager app that provides information about various fruits, FAQs, a chatbot, a translator, and more.
 
 ## Important
 #### Login Page 
-1. sometimes the backend takes time to response because of Free trial Ensure you have also opened Backend Link also :) .
+1. For Faster Response Ensure you have opened Backend Link also :) .
 2. Demo Email : test@example.com
 3. Demo Password : password123
 
@@ -21,21 +22,22 @@ This is the frontend of the Fruit.Ai project, a health manager app that provides
    ```
 3. Running the Project
    To start the project in development mode:
-
-```bash
-npm start
-
+   ```bash
+   npm start
+   ```
 
 ## ENVIROMENT VARIABLES
+```bash
 REACT_APP_Query_Params=<your-query-params>
 REACT_APP_Base_URL=<api-base-url>
 REACT_APP_RapidAPI_Key=<rapidapi-key-for-translation>
+```
 
-
-### DEPLOYEMENT
+## DEPLOYEMENT
+```
 Delpoyment=<vercel>
-TOREMEBER=<check-all-the-requirements-and-commands>
-
+TO_REMEMBER=<check-all-the-requirements-and-commands>
+```
 
 
 ## Project Structure
@@ -56,4 +58,3 @@ TOREMEBER=<check-all-the-requirements-and-commands>
 - React Router
 - CSS for styling
 - Axios for API calls
-```
