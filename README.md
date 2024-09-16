@@ -2,8 +2,8 @@
 
 This is the frontend of the Fruit.Ai project, a health manager app that provides information about various fruits, FAQs, a chatbot, a translator, and more.
 
-###### Important
-## Login Page 
+## Important
+#### Login Page 
 1. sometimes the backend takes time to response because of Free trial Ensure you have also opened Backend Link also :) .
 2. Demo Email : test@example.com
 3. Demo Password : password123
