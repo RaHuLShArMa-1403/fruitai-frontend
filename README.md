@@ -5,7 +5,7 @@ This is the frontend of the Fruit.Ai project, a health manager app that provides
 ###### Important
 Login Page :
 Demo Email : test@example.com
-Demo Password : passwod123
+Demo Password : password123
 
 ## Setup
 
